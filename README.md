@@ -8,17 +8,24 @@ This setup answers the common stopping point:
 
 That message means the browser exploit and ELF loader already ran. The next step is to send the working ELF payloads to the PS5 loader on port `9021`.
 
-## Working Chain
+## How To Use
 
-1. Run Relapse exploit on the PS5.
-2. Wait until the page says `elfldr is listening on port 9021`.
-3. From this folder, send `kstuff-lite`:
+1. Open this Relapse host on the PS5 browser:
+
+```text
+https://soniciso1.github.io/relapse/
+```
+
+2. Run the exploit for firmware `13.60`.
+3. Enable `ftpsrv` and `klosrv` from the host options.
+4. Wait until the page says `elfldr is listening on port 9021`.
+5. If the page stops there, send `kstuff-lite` from this folder:
 
 ```sh
 nc -w 10 PS5_IP 9021 < downloads/kstuff-lite_v1.11_kstuff.elf
 ```
 
-4. Send `ShadowMountPlus`:
+6. Then send `ShadowMountPlus`:
 
 ```sh
 nc -w 10 PS5_IP 9021 < downloads/shadowmountplus_1.7beta2.elf
@@ -29,6 +36,13 @@ For the audited console, `PS5_IP` was:
 ```sh
 192.168.11.86
 ```
+
+## Working Chain
+
+1. Relapse exploit
+2. elfldr on port `9021`
+3. kstuff-lite v1.11
+4. ShadowMountPlus 1.7beta2
 
 ## Verified Runtime Evidence
 
