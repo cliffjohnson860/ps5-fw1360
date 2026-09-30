@@ -1,0 +1,48 @@
+[
+  {
+    "component": "Relapse elfldr 13.60",
+    "filename": "elfldr-ps5-1360.elf",
+    "url": "https://raw.githubusercontent.com/ntfargo/Relapse-Exploit/main/payloads/elfldr-ps5-1360.elf",
+    "release_tag": "main",
+    "repo": "ntfargo/Relapse-Exploit",
+    "path": "/Users/bbgtkjateng/ps5-fw1360-audit/downloads/elfldr-ps5-1360.elf",
+    "size": 397024,
+    "sha256": "de5dd480d12637527ba2d75e35de851adbb59c455293fa32588c492ef6b44b81",
+    "downloaded_at": "2026-09-30T09:26:38+0700"
+  },
+  {
+    "component": "kstuff-lite",
+    "filename": "kstuff-lite_v1.11_kstuff.elf",
+    "source_filename": "kstuff.elf",
+    "url": "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.11/kstuff.elf",
+    "release_tag": "v1.11",
+    "repo": "EchoStretch/kstuff-lite",
+    "path": "/Users/bbgtkjateng/ps5-fw1360-audit/downloads/kstuff-lite_v1.11_kstuff.elf",
+    "size": 1737080,
+    "sha256": "ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779",
+    "downloaded_at": "2026-09-30T09:26:41+0700"
+  },
+  {
+    "component": "ShadowMountPlus",
+    "filename": "shadowmountplus_1.7beta2.elf",
+    "source_filename": "shadowmountplus.elf",
+    "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta2/shadowmountplus.elf",
+    "release_tag": "1.7beta2",
+    "repo": "drakmor/ShadowMountPlus",
+    "path": "/Users/bbgtkjateng/ps5-fw1360-audit/downloads/shadowmountplus_1.7beta2.elf",
+    "size": 2437704,
+    "sha256": "3f716a7b2220c7e87e87452ae05cad689ef842d3beb4cdad6c526cb6dfc2b6b5",
+    "downloaded_at": "2026-09-30T09:26:42+0700"
+  },
+  {
+    "component": "etaHEN",
+    "filename": "etaHEN-2.5B.bin",
+    "url": "https://github.com/etaHEN/etaHEN/releases/download/2.5B/etaHEN-2.5B.bin",
+    "release_tag": "2.5B",
+    "repo": "etaHEN/etaHEN",
+    "path": "/Users/bbgtkjateng/ps5-fw1360-audit/downloads/etaHEN-2.5B.bin",
+    "size": 4678728,
+    "sha256": "4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e",
+    "downloaded_at": "2026-09-30T09:26:43+0700"
+  }
+]

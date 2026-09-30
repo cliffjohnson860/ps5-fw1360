@@ -1,0 +1,4 @@
+de5dd480d12637527ba2d75e35de851adbb59c455293fa32588c492ef6b44b81  downloads/elfldr-ps5-1360.elf
+ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779  downloads/kstuff-lite_v1.11_kstuff.elf
+3f716a7b2220c7e87e87452ae05cad689ef842d3beb4cdad6c526cb6dfc2b6b5  downloads/shadowmountplus_1.7beta2.elf
+4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e  downloads/etaHEN-2.5B.bin

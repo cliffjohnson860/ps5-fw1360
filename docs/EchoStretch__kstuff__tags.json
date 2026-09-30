@@ -1,0 +1,142 @@
+[
+  {
+    "name": "v1.6.7",
+    "zipball_url": "https://api.github.com/repos/EchoStretch/kstuff/zipball/refs/tags/v1.6.7",
+    "tarball_url": "https://api.github.com/repos/EchoStretch/kstuff/tarball/refs/tags/v1.6.7",
+    "commit": {
+      "sha": "d44a25400ecfab7e31afe9eb2c7c7c99770e8f56",
+      "url": "https://api.github.com/repos/EchoStretch/kstuff/commits/d44a25400ecfab7e31afe9eb2c7c7c99770e8f56"
+    },
+    "node_id": "REF_kwDOOF3fV7ByZWZzL3RhZ3MvdjEuNi43"
+  },
+  {
+    "name": "v1.6.6",
+    "zipball_url": "https://api.github.com/repos/EchoStretch/kstuff/zipball/refs/tags/v1.6.6",
+    "tarball_url": "https://api.github.com/repos/EchoStretch/kstuff/tarball/refs/tags/v1.6.6",
+    "commit": {
+      "sha": "be8258f687c83ec82203015a4831bd9e5453b776",
+      "url": "https://api.github.com/repos/EchoStretch/kstuff/commits/be8258f687c83ec82203015a4831bd9e5453b776"
+    },
+    "node_id": "REF_kwDOOF3fV7ByZWZzL3RhZ3MvdjEuNi42"
+  },
+  {
+    "name": "v1.6.5",
+    "zipball_url": "https://api.github.com/repos/EchoStretch/kstuff/zipball/refs/tags/v1.6.5",
+    "tarball_url": "https://api.github.com/repos/EchoStretch/kstuff/tarball/refs/tags/v1.6.5",
+    "commit": {
+      "sha": "2e4e1a38f7766a1add6ba2efece5217ad1f91a5c",
+      "url": "https://api.github.com/repos/EchoStretch/kstuff/commits/2e4e1a38f7766a1add6ba2efece5217ad1f91a5c"
+    },
+    "node_id": "REF_kwDOOF3fV7ByZWZzL3RhZ3MvdjEuNi41"
+  },
+  {
+    "name": "v1.6.4",
+    "zipball_url": "https://api.github.com/repos/EchoStretch/kstuff/zipball/refs/tags/v1.6.4",
+    "tarball_url": "https://api.github.com/repos/EchoStretch/kstuff/tarball/refs/tags/v1.6.4",
+    "commit": {
+      "sha": "70444c0dc14e4399ea46adc59641a9f0ed7fd0b3",
+      "url": "https://api.github.com/repos/EchoStretch/kstuff/commits/70444c0dc14e4399ea46adc59641a9f0ed7fd0b3"
+    },
+    "node_id": "REF_kwDOOF3fV7ByZWZzL3RhZ3MvdjEuNi40"
+  },
+  {
+    "name": "v1.6.3",
+    "zipball_url": "https://api.github.com/repos/EchoStretch/kstuff/zipball/refs/tags/v1.6.3",
+    "tarball_url": "https://api.github.com/repos/EchoStretch/kstuff/tarball/refs/tags/v1.6.3",
+    "commit": {
+      "sha": "e90d000680bc72f2dfa1b5dc280ce04a0d0b1c50",
+      "url": "https://api.github.com/repos/EchoStretch/kstuff/commits/e90d000680bc72f2dfa1b5dc280ce04a0d0b1c50"
+    },
+    "node_id": "REF_kwDOOF3fV7ByZWZzL3RhZ3MvdjEuNi4z"
+  },
+  {
+    "name": "v1.6.2",
+    "zipball_url": "https://api.github.com/repos/EchoStretch/kstuff/zipball/refs/tags/v1.6.2",
+    "tarball_url": "https://api.github.com/repos/EchoStretch/kstuff/tarball/refs/tags/v1.6.2",
+    "commit": {
+      "sha": "2bff5d6c79442b45232db86e0cceb7f65cf66ae9",
+      "url": "https://api.github.com/repos/EchoStretch/kstuff/commits/2bff5d6c79442b45232db86e0cceb7f65cf66ae9"
+    },
+    "node_id": "REF_kwDOOF3fV7ByZWZzL3RhZ3MvdjEuNi4y"
+  },
+  {
+    "name": "v1.6.1",
+    "zipball_url": "https://api.github.com/repos/EchoStretch/kstuff/zipball/refs/tags/v1.6.1",
+    "tarball_url": "https://api.github.com/repos/EchoStretch/kstuff/tarball/refs/tags/v1.6.1",
+    "commit": {
+      "sha": "612b64b358e24e88ab7e2dc93bb8731348d605a0",
+      "url": "https://api.github.com/repos/EchoStretch/kstuff/commits/612b64b358e24e88ab7e2dc93bb8731348d605a0"
+    },
+    "node_id": "REF_kwDOOF3fV7ByZWZzL3RhZ3MvdjEuNi4x"
+  },
+  {
+    "name": "v1.6",
+    "zipball_url": "https://api.github.com/repos/EchoStretch/kstuff/zipball/refs/tags/v1.6",
+    "tarball_url": "https://api.github.com/repos/EchoStretch/kstuff/tarball/refs/tags/v1.6",
+    "commit": {
+      "sha": "71f35dde3171147acb9f4c928670e9bd465e0ae0",
+      "url": "https://api.github.com/repos/EchoStretch/kstuff/commits/71f35dde3171147acb9f4c928670e9bd465e0ae0"
+    },
+    "node_id": "REF_kwDOOF3fV65yZWZzL3RhZ3MvdjEuNg"
+  },
+  {
+    "name": "v1.5",
+    "zipball_url": "https://api.github.com/repos/EchoStretch/kstuff/zipball/refs/tags/v1.5",
+    "tarball_url": "https://api.github.com/repos/EchoStretch/kstuff/tarball/refs/tags/v1.5",
+    "commit": {
+      "sha": "161aa6ee4b89e4e9592535f5d41d13d6c571a478",
+      "url": "https://api.github.com/repos/EchoStretch/kstuff/commits/161aa6ee4b89e4e9592535f5d41d13d6c571a478"
+    },
+    "node_id": "REF_kwDOOF3fV65yZWZzL3RhZ3MvdjEuNQ"
+  },
+  {
+    "name": "v1.4",
+    "zipball_url": "https://api.github.com/repos/EchoStretch/kstuff/zipball/refs/tags/v1.4",
+    "tarball_url": "https://api.github.com/repos/EchoStretch/kstuff/tarball/refs/tags/v1.4",
+    "commit": {
+      "sha": "62cdca86289f5aef2250ae5e68f5d1595753de51",
+      "url": "https://api.github.com/repos/EchoStretch/kstuff/commits/62cdca86289f5aef2250ae5e68f5d1595753de51"
+    },
+    "node_id": "REF_kwDOOF3fV65yZWZzL3RhZ3MvdjEuNA"
+  },
+  {
+    "name": "v1.3",
+    "zipball_url": "https://api.github.com/repos/EchoStretch/kstuff/zipball/refs/tags/v1.3",
+    "tarball_url": "https://api.github.com/repos/EchoStretch/kstuff/tarball/refs/tags/v1.3",
+    "commit": {
+      "sha": "0a7af8c4d4dcaf5acf3bbe1ec9de1e212763d44a",
+      "url": "https://api.github.com/repos/EchoStretch/kstuff/commits/0a7af8c4d4dcaf5acf3bbe1ec9de1e212763d44a"
+    },
+    "node_id": "REF_kwDOOF3fV65yZWZzL3RhZ3MvdjEuMw"
+  },
+  {
+    "name": "v1.2",
+    "zipball_url": "https://api.github.com/repos/EchoStretch/kstuff/zipball/refs/tags/v1.2",
+    "tarball_url": "https://api.github.com/repos/EchoStretch/kstuff/tarball/refs/tags/v1.2",
+    "commit": {
+      "sha": "ffd52005437f46dbd2cfed232fe655490b567bba",
+      "url": "https://api.github.com/repos/EchoStretch/kstuff/commits/ffd52005437f46dbd2cfed232fe655490b567bba"
+    },
+    "node_id": "REF_kwDOOF3fV65yZWZzL3RhZ3MvdjEuMg"
+  },
+  {
+    "name": "v1.1",
+    "zipball_url": "https://api.github.com/repos/EchoStretch/kstuff/zipball/refs/tags/v1.1",
+    "tarball_url": "https://api.github.com/repos/EchoStretch/kstuff/tarball/refs/tags/v1.1",
+    "commit": {
+      "sha": "1be0f784d34e3c6c159bdfe8c156295ace2d62fc",
+      "url": "https://api.github.com/repos/EchoStretch/kstuff/commits/1be0f784d34e3c6c159bdfe8c156295ace2d62fc"
+    },
+    "node_id": "REF_kwDOOF3fV65yZWZzL3RhZ3MvdjEuMQ"
+  },
+  {
+    "name": "5xx-support-v1",
+    "zipball_url": "https://api.github.com/repos/EchoStretch/kstuff/zipball/refs/tags/5xx-support-v1",
+    "tarball_url": "https://api.github.com/repos/EchoStretch/kstuff/tarball/refs/tags/5xx-support-v1",
+    "commit": {
+      "sha": "081f53b1b58db53074fc5f0c4a6267ac1fce8445",
+      "url": "https://api.github.com/repos/EchoStretch/kstuff/commits/081f53b1b58db53074fc5f0c4a6267ac1fce8445"
+    },
+    "node_id": "REF_kwDOOF3fV7hyZWZzL3RhZ3MvNXh4LXN1cHBvcnQtdjE"
+  }
+]

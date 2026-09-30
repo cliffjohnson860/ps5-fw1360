@@ -1,0 +1,224 @@
+==================================================
+PS5 13.60 WORKING SETUP
+==================================================
+
+DATE DOCUMENTED:
+2026-09-30 10:03:27 WIB
+
+TARGET:
+Firmware: 13.60
+
+CREDIT:
+Audit / setup documentation: https://github.com/orchivillando
+
+NETWORK STATE WHEN VERIFIED:
+- FTP: 2121 OPEN
+- ELF loader: 9021 OPEN
+- OnionHEN internal loader: 9020 CLOSED
+- OnionHEN control: 9048 CLOSED
+- pldmgr: 8084 CLOSED
+- ShadowMountPlus local API: 127.0.0.1:10101 LOCAL PS5 LOOPBACK ONLY
+
+Notes:
+- 2121 and 9021 were verified reachable in local read-only snapshots.
+- 9020, 9048, and 8084 were verified closed in the same snapshots.
+- 127.0.0.1:10101 is bound to PS5 loopback per ShadowMountPlus runtime output; external refusal is not a failure.
+
+==================================================
+WORKING CHAIN
+==================================================
+
+Proven successful sequence:
+
+1. Relapse exploit
+2. elfldr
+3. kstuff-lite v1.11
+4. ShadowMountPlus 1.7beta2
+
+etaHEN 2.5B:
+NOT USED / FW 13.60 SUPPORT NOT VERIFIED
+
+OnionHEN v0.0.13:
+NOT PART OF WORKING CHAIN
+
+kstuff v1.6.7:
+DO NOT USE FOR FW 13.60
+Catatan: old kstuff full line, not selected.
+
+==================================================
+VERIFIED PAYLOADS
+==================================================
+
+Component: elfldr
+Version: Relapse bundled 13.60 loader
+Filename: elfldr-ps5-1360.elf
+Size: 397024
+SHA256: de5dd480d12637527ba2d75e35de851adbb59c455293fa32588c492ef6b44b81
+Compatibility: Relapse FW 13.60 loader artifact
+Runtime result: VERIFIED. Loader endpoint 9021 was reachable.
+
+Component: kstuff-lite
+Version: v1.11
+Filename: kstuff-lite_v1.11_kstuff.elf
+Size: 1737080
+SHA256: ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779
+Compatibility: PS5 FW 1.00-13.60
+Runtime evidence:
+- patching app.db
+- Patching shellui instance
+- Successfully patched SceShellUI trophy IsServerAvailable
+Runtime result: ACTIVE
+
+Component: ShadowMountPlus
+Version: 1.7beta2
+Filename: shadowmountplus_1.7beta2.elf
+Size: 2437704
+SHA256: 3f716a7b2220c7e87e87452ae05cad689ef842d3beb4cdad6c526cb6dfc2b6b5
+Compatibility: FW up to 13.60 based on upstream release line
+Runtime evidence:
+- FW: 13.60
+- runtime control ready
+- hooks installed
+- GAME lifecycle watcher started
+- Library synchronized
+- HTTP/JSON ready: http://127.0.0.1:10101/api/v1
+Runtime result: ACTIVE
+
+Component: etaHEN
+Version: 2.5B
+Filename: etaHEN-2.5B.bin
+Size: 4678728
+SHA256: 4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e
+Compatibility: FW 13.60 support not verified from upstream documentation used during audit
+Runtime result: NOT USED
+
+==================================================
+LAST VERIFIED RUNTIME STATE
+==================================================
+
+PS5 reachable: YES
+2121 FTP: OPEN
+9021 elfldr: OPEN
+9020: CLOSED
+9048: CLOSED
+8084: CLOSED
+10101: LOCAL PS5 LOOPBACK ONLY. Do not classify external refusal as failure.
+
+KSTUFF:
+ACTIVE
+
+SHADOWMOUNTPLUS:
+ACTIVE
+
+SYSTEM STABLE:
+YES
+
+==================================================
+FILES / DIRECTORIES OBSERVED
+==================================================
+
+/data/OnionHEN/
+- Observed during earlier FTP read-only audit.
+
+/data/pldmgr/
+- Observed during earlier FTP read-only audit.
+
+/data/shadowmount/
+- config.ini observed.
+- debug.log observed.
+- timestamps via FTP did not visibly change during final read-only verification.
+- this does not override runtime evidence.
+
+==================================================
+KNOWN NON-WORKING / OLD COMPONENTS
+==================================================
+
+kstuff_v1.6.7.elf
+Status:
+DO NOT SELECT FOR FW 13.60
+
+ShadowMountPlus_1.7beta1.elf
+Status:
+OLDER THAN WORKING SELECTED VERSION
+
+onionHEN_v0.0.13.elf
+Status:
+NOT PART OF VERIFIED WORKING CHAIN
+
+WebKit-Autoloader-Installer_v0.4.0.elf
+Status:
+metadata range excludes FW 13.60
+
+==================================================
+IMPORTANT NOTES
+==================================================
+
+- Jailbreak state is tethered/runtime-based.
+- After reboot, runtime state should be assumed lost until re-established.
+- Port 9021 being OPEN proves loader endpoint availability, not kstuff status by itself.
+- kstuff ACTIVE was concluded from runtime output, not merely successful transfer.
+- ShadowMountPlus ACTIVE was concluded from runtime startup output.
+- 127.0.0.1:10101 is local loopback on the PS5.
+- External inability to connect to 10101 is expected with local-only binding.
+- Do not infer compatibility from filename alone.
+- Prefer verified upstream-compatible versions.
+
+==================================================
+QUICK REFERENCE
+==================================================
+
+FW: 13.60
+Exploit: Relapse
+Loader: elfldr on 9021
+Kernel payload: kstuff-lite v1.11
+Mount payload: ShadowMountPlus 1.7beta2
+etaHEN: not used
+Working status: VERIFIED
+System stable: YES
+
+==================================================
+AUDIT TRAIL
+==================================================
+
+Local evidence files under ~/ps5-fw1360-audit/:
+
+.post-action-tmp/meta.tsv | 253 bytes | 2026-09-30 09:35:02 WIB
+.post-action-tmp/new_matches.txt | 0 bytes | 2026-09-30 09:35:02 WIB
+.post-action-tmp/tcp.tsv | 415 bytes | 2026-09-30 09:35:02 WIB
+SHA256SUMS.txt | 398 bytes | 2026-09-30 09:26:43 WIB
+after-manual-action.txt | 2131 bytes | 2026-09-30 09:35:02 WIB
+before-manual-action.txt | 923 bytes | 2026-09-30 09:32:50 WIB
+download_manifest.json | 2015 bytes | 2026-09-30 09:26:43 WIB
+docs/EchoStretch__kstuff-lite__README.md | 7393 bytes | 2026-09-30 09:25:40 WIB
+docs/EchoStretch__kstuff-lite__releases.json | 59804 bytes | 2026-09-30 09:25:40 WIB
+docs/EchoStretch__kstuff-lite__tags.json | 5739 bytes | 2026-09-30 09:25:41 WIB
+docs/EchoStretch__kstuff__README.md | 14 bytes | 2026-09-30 09:25:41 WIB
+docs/EchoStretch__kstuff__releases.json | 63866 bytes | 2026-09-30 09:25:42 WIB
+docs/EchoStretch__kstuff__tags.json | 6528 bytes | 2026-09-30 09:25:42 WIB
+docs/drakmor__ShadowMountPlus__README.md | 30349 bytes | 2026-09-30 09:25:43 WIB
+docs/drakmor__ShadowMountPlus__releases.json | 160638 bytes | 2026-09-30 09:25:43 WIB
+docs/drakmor__ShadowMountPlus__tags.json | 14933 bytes | 2026-09-30 09:25:44 WIB
+docs/etaHEN__etaHEN__README.md | 10728 bytes | 2026-09-30 09:25:44 WIB
+docs/etaHEN__etaHEN__releases.json | 102546 bytes | 2026-09-30 09:25:45 WIB
+docs/etaHEN__etaHEN__tags.json | 8920 bytes | 2026-09-30 09:25:45 WIB
+docs/ntfargo__Relapse-Exploit__README.md | 1395 bytes | 2026-09-30 09:25:38 WIB
+docs/ntfargo__Relapse-Exploit__contents.json | 5773 bytes | 2026-09-30 09:26:08 WIB
+docs/ntfargo__Relapse-Exploit__index.html | 550 bytes | 2026-09-30 09:37:15 WIB
+docs/ntfargo__Relapse-Exploit__main_commit.json | 12949 bytes | 2026-09-30 09:27:10 WIB
+docs/ntfargo__Relapse-Exploit__offsets__13.60.js | 11363 bytes | 2026-09-30 09:26:55 WIB
+docs/ntfargo__Relapse-Exploit__offsets_contents.json | 29869 bytes | 2026-09-30 09:26:19 WIB
+docs/ntfargo__Relapse-Exploit__payloads_contents.json | 1986 bytes | 2026-09-30 09:26:19 WIB
+docs/ntfargo__Relapse-Exploit__releases.json | 5 bytes | 2026-09-30 09:25:39 WIB
+docs/ntfargo__Relapse-Exploit__serve.py | 919 bytes | 2026-09-30 09:37:16 WIB
+docs/ntfargo__Relapse-Exploit__src__firmware.js | 915 bytes | 2026-09-30 09:37:15 WIB
+docs/ntfargo__Relapse-Exploit__src__kexp.js | 10419 bytes | 2026-09-30 09:37:15 WIB
+docs/ntfargo__Relapse-Exploit__src__main.js | 8788 bytes | 2026-09-30 09:37:14 WIB
+docs/ntfargo__Relapse-Exploit__src__site.js | 2248 bytes | 2026-09-30 09:37:14 WIB
+docs/ntfargo__Relapse-Exploit__src_contents.json | 7037 bytes | 2026-09-30 09:26:19 WIB
+docs/ntfargo__Relapse-Exploit__tags.json | 5 bytes | 2026-09-30 09:25:39 WIB
+docs/ps5-payload-dev__elfldr__README.md | 2969 bytes | 2026-09-30 09:37:13 WIB
+docs/ps5-payload-dev__elfldr__contents.json | 17883 bytes | 2026-09-30 09:37:14 WIB
+downloads/elfldr-ps5-1360.elf | 397024 bytes | 2026-09-30 09:26:38 WIB
+downloads/etaHEN-2.5B.bin | 4678728 bytes | 2026-09-30 09:26:43 WIB
+downloads/kstuff-lite_v1.11_kstuff.elf | 1737080 bytes | 2026-09-30 09:26:41 WIB
+downloads/shadowmountplus_1.7beta2.elf | 2437704 bytes | 2026-09-30 09:26:42 WIB

@@ -1,0 +1,17 @@
+PS5 FW 13.60 read-only diagnosis snapshot
+Snapshot time: 2026-09-30 09:32:50 WIB
+Target: 192.168.11.86
+
+TCP status:
+2121	OPEN	Connection to 192.168.11.86 port 2121 [tcp/scientia-ssdb] succeeded!
+9021	OPEN	Connection to 192.168.11.86 port 9021 [tcp/panagolin-ident] succeeded!
+9020	CLOSED	nc: connectx to 192.168.11.86 port 9020 (tcp) failed: Connection refused
+9048	CLOSED	nc: connectx to 192.168.11.86 port 9048 (tcp) failed: Connection refused
+8084	CLOSED	nc: connectx to 192.168.11.86 port 8084 (tcp) failed: Connection refused
+
+Log file metadata:
+/Volumes/192.168.11.86/data/OnionHEN/OnionHEN.log\t90317 bytes\t2026-09-29 09:29:00 WIB
+/Volumes/192.168.11.86/data/OnionHEN/OnionHEN_crash.log\t0 bytes\t2026-09-23 02:44:00 WIB
+/Volumes/192.168.11.86/data/OnionHEN/OnionHEN_util_daemon.log\t1369 bytes\t2026-09-29 07:02:00 WIB
+
+Notes: TCP connect tests only; no payload sent; no ELF/BIN executed; no file modified on PS5.

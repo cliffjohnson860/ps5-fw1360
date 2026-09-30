@@ -1,0 +1,338 @@
+[
+  {
+    "name": ".github",
+    "path": ".github",
+    "sha": "709640d814f32d44f4c6493f083a431bc4bef72d",
+    "size": 0,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/.github?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/tree/master/.github",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/trees/709640d814f32d44f4c6493f083a431bc4bef72d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/.github?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/trees/709640d814f32d44f4c6493f083a431bc4bef72d",
+      "html": "https://github.com/ps5-payload-dev/elfldr/tree/master/.github"
+    }
+  },
+  {
+    "name": ".gitignore",
+    "path": ".gitignore",
+    "sha": "d2f706abba6cabe960eb678de3ad2617d7cd1695",
+    "size": 44,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/.gitignore?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/blob/master/.gitignore",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/d2f706abba6cabe960eb678de3ad2617d7cd1695",
+    "download_url": "https://raw.githubusercontent.com/ps5-payload-dev/elfldr/master/.gitignore",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/.gitignore?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/d2f706abba6cabe960eb678de3ad2617d7cd1695",
+      "html": "https://github.com/ps5-payload-dev/elfldr/blob/master/.gitignore"
+    }
+  },
+  {
+    "name": "LICENSE",
+    "path": "LICENSE",
+    "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+    "size": 35149,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/LICENSE?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/blob/master/LICENSE",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+    "download_url": "https://raw.githubusercontent.com/ps5-payload-dev/elfldr/master/LICENSE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/LICENSE?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "html": "https://github.com/ps5-payload-dev/elfldr/blob/master/LICENSE"
+    }
+  },
+  {
+    "name": "Makefile",
+    "path": "Makefile",
+    "sha": "b3e913a57cf59012aaa91e0917fe9c21e07b9cf0",
+    "size": 1377,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/Makefile?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/blob/master/Makefile",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/b3e913a57cf59012aaa91e0917fe9c21e07b9cf0",
+    "download_url": "https://raw.githubusercontent.com/ps5-payload-dev/elfldr/master/Makefile",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/Makefile?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/b3e913a57cf59012aaa91e0917fe9c21e07b9cf0",
+      "html": "https://github.com/ps5-payload-dev/elfldr/blob/master/Makefile"
+    }
+  },
+  {
+    "name": "README.md",
+    "path": "README.md",
+    "sha": "058e721424f6b76cac8ad6a3cb309be303774b7b",
+    "size": 2969,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/README.md?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/blob/master/README.md",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/058e721424f6b76cac8ad6a3cb309be303774b7b",
+    "download_url": "https://raw.githubusercontent.com/ps5-payload-dev/elfldr/master/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/README.md?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/058e721424f6b76cac8ad6a3cb309be303774b7b",
+      "html": "https://github.com/ps5-payload-dev/elfldr/blob/master/README.md"
+    }
+  },
+  {
+    "name": "asset.h",
+    "path": "asset.h",
+    "sha": "df7cc83ac2d8a5bb3741707a717afd5a708f68fe",
+    "size": 1103,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/asset.h?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/blob/master/asset.h",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/df7cc83ac2d8a5bb3741707a717afd5a708f68fe",
+    "download_url": "https://raw.githubusercontent.com/ps5-payload-dev/elfldr/master/asset.h",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/asset.h?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/df7cc83ac2d8a5bb3741707a717afd5a708f68fe",
+      "html": "https://github.com/ps5-payload-dev/elfldr/blob/master/asset.h"
+    }
+  },
+  {
+    "name": "bootstrap.c",
+    "path": "bootstrap.c",
+    "sha": "7bd3919d21485a0e76c0cc89a16141da497949f9",
+    "size": 2398,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/bootstrap.c?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/blob/master/bootstrap.c",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/7bd3919d21485a0e76c0cc89a16141da497949f9",
+    "download_url": "https://raw.githubusercontent.com/ps5-payload-dev/elfldr/master/bootstrap.c",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/bootstrap.c?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/7bd3919d21485a0e76c0cc89a16141da497949f9",
+      "html": "https://github.com/ps5-payload-dev/elfldr/blob/master/bootstrap.c"
+    }
+  },
+  {
+    "name": "elfldr.c",
+    "path": "elfldr.c",
+    "sha": "b34ecebb78a93723cdb4eb3f624d2152e09a746b",
+    "size": 18188,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/elfldr.c?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/blob/master/elfldr.c",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/b34ecebb78a93723cdb4eb3f624d2152e09a746b",
+    "download_url": "https://raw.githubusercontent.com/ps5-payload-dev/elfldr/master/elfldr.c",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/elfldr.c?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/b34ecebb78a93723cdb4eb3f624d2152e09a746b",
+      "html": "https://github.com/ps5-payload-dev/elfldr/blob/master/elfldr.c"
+    }
+  },
+  {
+    "name": "elfldr.h",
+    "path": "elfldr.h",
+    "sha": "a35f92d626b72156dda2f4c6c941b3830e7bdf6f",
+    "size": 1283,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/elfldr.h?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/blob/master/elfldr.h",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/a35f92d626b72156dda2f4c6c941b3830e7bdf6f",
+    "download_url": "https://raw.githubusercontent.com/ps5-payload-dev/elfldr/master/elfldr.h",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/elfldr.h?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/a35f92d626b72156dda2f4c6c941b3830e7bdf6f",
+      "html": "https://github.com/ps5-payload-dev/elfldr/blob/master/elfldr.h"
+    }
+  },
+  {
+    "name": "log.h",
+    "path": "log.h",
+    "sha": "df946b3a85dcf9720cfeec76e3dcb05e6436ad50",
+    "size": 1390,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/log.h?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/blob/master/log.h",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/df946b3a85dcf9720cfeec76e3dcb05e6436ad50",
+    "download_url": "https://raw.githubusercontent.com/ps5-payload-dev/elfldr/master/log.h",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/log.h?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/df946b3a85dcf9720cfeec76e3dcb05e6436ad50",
+      "html": "https://github.com/ps5-payload-dev/elfldr/blob/master/log.h"
+    }
+  },
+  {
+    "name": "main.c",
+    "path": "main.c",
+    "sha": "33c51a39d2ca3d19e0fd6fc86abf0b4ba2be8b57",
+    "size": 2827,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/main.c?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/blob/master/main.c",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/33c51a39d2ca3d19e0fd6fc86abf0b4ba2be8b57",
+    "download_url": "https://raw.githubusercontent.com/ps5-payload-dev/elfldr/master/main.c",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/main.c?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/33c51a39d2ca3d19e0fd6fc86abf0b4ba2be8b57",
+      "html": "https://github.com/ps5-payload-dev/elfldr/blob/master/main.c"
+    }
+  },
+  {
+    "name": "notify.c",
+    "path": "notify.c",
+    "sha": "4e5b23c47cee0f3a75b949a356c1e13e6c270cc7",
+    "size": 1159,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/notify.c?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/blob/master/notify.c",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/4e5b23c47cee0f3a75b949a356c1e13e6c270cc7",
+    "download_url": "https://raw.githubusercontent.com/ps5-payload-dev/elfldr/master/notify.c",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/notify.c?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/4e5b23c47cee0f3a75b949a356c1e13e6c270cc7",
+      "html": "https://github.com/ps5-payload-dev/elfldr/blob/master/notify.c"
+    }
+  },
+  {
+    "name": "notify.h",
+    "path": "notify.h",
+    "sha": "5e21bb3174cd2d36e0e70da43b83cdc61bee496e",
+    "size": 711,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/notify.h?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/blob/master/notify.h",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/5e21bb3174cd2d36e0e70da43b83cdc61bee496e",
+    "download_url": "https://raw.githubusercontent.com/ps5-payload-dev/elfldr/master/notify.h",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/notify.h?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/5e21bb3174cd2d36e0e70da43b83cdc61bee496e",
+      "html": "https://github.com/ps5-payload-dev/elfldr/blob/master/notify.h"
+    }
+  },
+  {
+    "name": "pt.c",
+    "path": "pt.c",
+    "sha": "ea0e79bd3317dd705b725a9abd79db65cbf96768",
+    "size": 7489,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/pt.c?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/blob/master/pt.c",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/ea0e79bd3317dd705b725a9abd79db65cbf96768",
+    "download_url": "https://raw.githubusercontent.com/ps5-payload-dev/elfldr/master/pt.c",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/pt.c?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/ea0e79bd3317dd705b725a9abd79db65cbf96768",
+      "html": "https://github.com/ps5-payload-dev/elfldr/blob/master/pt.c"
+    }
+  },
+  {
+    "name": "pt.h",
+    "path": "pt.h",
+    "sha": "9017c48c9a7613e716b450054c408442a924e504",
+    "size": 2391,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/pt.h?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/blob/master/pt.h",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/9017c48c9a7613e716b450054c408442a924e504",
+    "download_url": "https://raw.githubusercontent.com/ps5-payload-dev/elfldr/master/pt.h",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/pt.h?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/9017c48c9a7613e716b450054c408442a924e504",
+      "html": "https://github.com/ps5-payload-dev/elfldr/blob/master/pt.h"
+    }
+  },
+  {
+    "name": "selfldr.c",
+    "path": "selfldr.c",
+    "sha": "fe3eab721f348369ff018ff29cb5aea220853ca2",
+    "size": 3816,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/selfldr.c?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/blob/master/selfldr.c",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/fe3eab721f348369ff018ff29cb5aea220853ca2",
+    "download_url": "https://raw.githubusercontent.com/ps5-payload-dev/elfldr/master/selfldr.c",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/selfldr.c?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/fe3eab721f348369ff018ff29cb5aea220853ca2",
+      "html": "https://github.com/ps5-payload-dev/elfldr/blob/master/selfldr.c"
+    }
+  },
+  {
+    "name": "selfldr.h",
+    "path": "selfldr.h",
+    "sha": "adc5cda1ee0145c2c21f83b6658a49464515d66b",
+    "size": 984,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/selfldr.h?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/blob/master/selfldr.h",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/adc5cda1ee0145c2c21f83b6658a49464515d66b",
+    "download_url": "https://raw.githubusercontent.com/ps5-payload-dev/elfldr/master/selfldr.h",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/selfldr.h?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/adc5cda1ee0145c2c21f83b6658a49464515d66b",
+      "html": "https://github.com/ps5-payload-dev/elfldr/blob/master/selfldr.h"
+    }
+  },
+  {
+    "name": "socksrv.c",
+    "path": "socksrv.c",
+    "sha": "b0f28b2c12364de47b5b6bcb1f5ae8404bd4c801",
+    "size": 8935,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/socksrv.c?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/blob/master/socksrv.c",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/b0f28b2c12364de47b5b6bcb1f5ae8404bd4c801",
+    "download_url": "https://raw.githubusercontent.com/ps5-payload-dev/elfldr/master/socksrv.c",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/socksrv.c?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/b0f28b2c12364de47b5b6bcb1f5ae8404bd4c801",
+      "html": "https://github.com/ps5-payload-dev/elfldr/blob/master/socksrv.c"
+    }
+  },
+  {
+    "name": "stress-test",
+    "path": "stress-test",
+    "sha": "26d1fc1ce8afdd12564b43b253694195610b3859",
+    "size": 0,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/stress-test?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/tree/master/stress-test",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/trees/26d1fc1ce8afdd12564b43b253694195610b3859",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/stress-test?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/trees/26d1fc1ce8afdd12564b43b253694195610b3859",
+      "html": "https://github.com/ps5-payload-dev/elfldr/tree/master/stress-test"
+    }
+  },
+  {
+    "name": "uri.c",
+    "path": "uri.c",
+    "sha": "001c5b81685617b80994cc944e29cabbe2b44d7e",
+    "size": 7649,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/uri.c?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/blob/master/uri.c",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/001c5b81685617b80994cc944e29cabbe2b44d7e",
+    "download_url": "https://raw.githubusercontent.com/ps5-payload-dev/elfldr/master/uri.c",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/uri.c?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/001c5b81685617b80994cc944e29cabbe2b44d7e",
+      "html": "https://github.com/ps5-payload-dev/elfldr/blob/master/uri.c"
+    }
+  },
+  {
+    "name": "uri.h",
+    "path": "uri.h",
+    "sha": "d58e622a6e280b92869275c868af94e98c12522d",
+    "size": 1129,
+    "url": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/uri.h?ref=master",
+    "html_url": "https://github.com/ps5-payload-dev/elfldr/blob/master/uri.h",
+    "git_url": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/d58e622a6e280b92869275c868af94e98c12522d",
+    "download_url": "https://raw.githubusercontent.com/ps5-payload-dev/elfldr/master/uri.h",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ps5-payload-dev/elfldr/contents/uri.h?ref=master",
+      "git": "https://api.github.com/repos/ps5-payload-dev/elfldr/git/blobs/d58e622a6e280b92869275c868af94e98c12522d",
+      "html": "https://github.com/ps5-payload-dev/elfldr/blob/master/uri.h"
+    }
+  }
+]
