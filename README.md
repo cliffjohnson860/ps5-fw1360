@@ -1,6 +1,6 @@
-# PS5 FW 13.60 Payload Audit
+# PS5 FW 13.60 Relapse Payload Setup
 
-Private audit notes and payload set for a PS5 on firmware 13.60.
+Working notes and payload set for a PS5 on firmware 13.60.
 
 This setup answers the common stopping point:
 
