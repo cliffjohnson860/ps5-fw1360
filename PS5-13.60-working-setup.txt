@@ -33,7 +33,8 @@ Proven successful sequence:
 1. Relapse exploit
 2. elfldr
 3. kstuff-lite v1.11
-4. ShadowMountPlus 1.7beta2
+4. ShadowMountPlus 1.7beta3
+5. LegacyJB 1.2.1 (jailbreak service for homebrew apps, e.g. Spectrum Library)
 
 etaHEN 2.5B:
 NOT USED / FW 13.60 SUPPORT NOT VERIFIED
@@ -70,10 +71,10 @@ Runtime evidence:
 Runtime result: ACTIVE
 
 Component: ShadowMountPlus
-Version: 1.7beta2
-Filename: shadowmountplus_1.7beta2.elf
-Size: 2437704
-SHA256: 3f716a7b2220c7e87e87452ae05cad689ef842d3beb4cdad6c526cb6dfc2b6b5
+Version: 1.7beta2 (superseded) / 1.7beta3 (current)
+Filename: shadowmountplus_1.7beta2.elf / shadowmountplus_1.7beta3.elf
+Size: 2437704 / 2437848
+SHA256: 3f716a7b2220c7e87e87452ae05cad689ef842d3beb4cdad6c526cb6dfc2b6b5 / 2a7427e20ba7a70bd8cd01e47eb00ee7ca82db82dff3da7884f48f9c3fcbe95a
 Compatibility: FW up to 13.60 based on upstream release line
 Runtime evidence:
 - FW: 13.60
@@ -83,6 +84,14 @@ Runtime evidence:
 - Library synchronized
 - HTTP/JSON ready: http://127.0.0.1:10101/api/v1
 Runtime result: ACTIVE
+
+Component: LegacyJB
+Version: 1.2.1
+Filename: LegacyJB_1.2.1.elf
+Size: 493464
+SHA256: 7633372f39a7a6e460f3990b02cd07026f4e5591aefd2509f8c6338f03b8440b
+Compatibility: PS5 homebrew jailbreak service payload (phoenixx1202/legacyjb)
+Runtime result: ADDED 2026-10-07 - provides jailbreak service for supported applications (e.g. Spectrum Library). Send via elfldr port 9021 after ShadowMountPlus.
 
 Component: etaHEN
 Version: 2.5B
