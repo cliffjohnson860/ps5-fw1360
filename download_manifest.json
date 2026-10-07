@@ -44,5 +44,29 @@
     "size": 4678728,
     "sha256": "4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e",
     "downloaded_at": "2026-09-30T09:26:43+0700"
+  },
+  {
+    "component": "ShadowMountPlus",
+    "filename": "shadowmountplus_1.7beta3.elf",
+    "source_filename": "shadowmountplus.elf",
+    "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta3/shadowmountplus.elf",
+    "release_tag": "1.7beta3",
+    "repo": "drakmor/ShadowMountPlus",
+    "size": 2437848,
+    "sha256": "2a7427e20ba7a70bd8cd01e47eb00ee7ca82db82dff3da7884f48f9c3fcbe95a",
+    "downloaded_at": "2026-10-07T16:04:00-04:00",
+    "note": "Latest release as of 2026-10-07; supersedes 1.7beta2 in working chain"
+  },
+  {
+    "component": "LegacyJB",
+    "filename": "LegacyJB_1.2.1.elf",
+    "source_filename": "LegacyJB.elf",
+    "url": "https://github.com/phoenixx1202/legacyjb/releases/download/1.2.1/LegacyJB.elf",
+    "release_tag": "1.2.1",
+    "repo": "phoenixx1202/legacyjb",
+    "size": 493464,
+    "sha256": "7633372f39a7a6e460f3990b02cd07026f4e5591aefd2509f8c6338f03b8440b",
+    "downloaded_at": "2026-10-07T16:04:00-04:00",
+    "note": "Jailbreak service payload for supported homebrew applications (e.g. Spectrum Library). Send after ShadowMountPlus."
   }
 ]
