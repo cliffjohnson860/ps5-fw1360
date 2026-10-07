@@ -25,10 +25,16 @@ https://soniciso1.github.io/relapse/
 nc -w 10 PS5_IP 9021 < downloads/kstuff-lite_v1.11_kstuff.elf
 ```
 
-6. Then send `ShadowMountPlus`:
+6. Then send `ShadowMountPlus` (latest):
 
 ```sh
-nc -w 10 PS5_IP 9021 < downloads/shadowmountplus_1.7beta2.elf
+nc -w 10 PS5_IP 9021 < downloads/shadowmountplus_1.7beta3.elf
+```
+
+7. Then send `LegacyJB` — this provides the jailbreak service that homebrew apps like Spectrum Library need:
+
+```sh
+nc -w 10 PS5_IP 9021 < downloads/LegacyJB_1.2.1.elf
 ```
 
 For the audited console, `PS5_IP` was:
@@ -42,7 +48,8 @@ For the audited console, `PS5_IP` was:
 1. Relapse exploit
 2. elfldr on port `9021`
 3. kstuff-lite v1.11
-4. ShadowMountPlus 1.7beta2
+4. ShadowMountPlus 1.7beta3
+5. LegacyJB 1.2.1 (jailbreak service for homebrew apps, e.g. Spectrum Library)
 
 ## Verified Runtime Evidence
 
@@ -68,6 +75,7 @@ Note: `127.0.0.1:10101` is PS5 loopback only. Refused connection from a Mac/PC i
 - `ShadowMountPlus_1.7beta1.elf`
 - `OnionHEN v0.0.13`
 - `etaHEN 2.5B` unless FW 13.60 support is verified separately
+- `shadowmountplus_1.7beta2.elf` (superseded by 1.7beta3, kept as fallback)
 
 ## Files
 
@@ -89,6 +97,7 @@ Upstream projects and authors:
 - ps5-payload-elfldr: https://github.com/ps5-payload-dev/elfldr
 - kstuff-lite: https://github.com/EchoStretch/kstuff-lite
 - ShadowMountPlus: https://github.com/drakmor/ShadowMountPlus
+- LegacyJB: https://github.com/phoenixx1202/legacyjb
 - etaHEN reference docs: https://github.com/etaHEN/etaHEN
 
 Use only on hardware you own or are authorized to test. This repository is for private audit, recovery, and research documentation.
